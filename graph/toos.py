@@ -58,10 +58,6 @@ if __name__ == "__main__":
     root2.left = Node(2)
     root2.right = Node(6)
 
-    # Create Solution object
-    sol = Solution()
-    # Merge BSTs
-    result = sol.mergeBSTs(root1, root2)
 
     # Print result
     print(*result)
