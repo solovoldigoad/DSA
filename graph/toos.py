@@ -52,11 +52,9 @@ if __name__ == "__main__":
     root1 = Node(3)
     root1.left = Node(1)
     root1.right = Node(5)
-
-    # Create second BST
-    root2 = Node(4)
-    root2.left = Node(2)
-    root2.right = Node(6)
+        root1.left = Node(1)
+    root1.right = Node(5)    root1.left = Node(1)
+    root1.right = Node(5)
 
 
     # Print result
